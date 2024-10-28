@@ -20,7 +20,7 @@ const AppliedJobTable = () => {
 
   const fetchUsersAppliedJobs = async () => {
     try {
-      const res = await fetch(`http://localhost:8080/api/v1/application/get`, {
+      const res = await fetch(`https://mernjobportal-2-1cwi.onrender.com/api/v1/application/get`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

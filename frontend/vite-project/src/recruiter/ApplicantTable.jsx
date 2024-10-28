@@ -24,7 +24,7 @@ const ApplicantTable = () => {
   const statusHandler = async (status, id) => {
     try {
       const res = await fetch(
-        `http://localhost:8080/api/v1/application/status/${id}/update`,
+        `https://mernjobportal-2-1cwi.onrender.com/api/v1/application/status/${id}/update`,
         {
           method: "POST",
           headers: {

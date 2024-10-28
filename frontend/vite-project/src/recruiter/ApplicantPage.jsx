@@ -13,7 +13,7 @@ const ApplicantPage = () => {
   const fetchAllApplicants = async () => {
     try {
       const res = await fetch(
-        `http://localhost:8080/api/v1/application/${id}/applicants`,
+        `https://mernjobportal-2-1cwi.onrender.com/api/v1/application/${id}/applicants`,
         {
           method: "GET",
           headers: {
